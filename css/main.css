@@ -3,46 +3,32 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 html {
-  background-color: #131313;
+  background-color: #282828;
   height: 100%;
   display: flex;
   justify-content: center;
 }
+
 body {
   display: flex;
   flex-direction: column;
-  font-family: Jetbrains Mono;
+  font-family: Firacode Nerd Font Mono;
   color: white;
 }
+
 header {
   display: flex;
-  img {
-    border-radius: 50%;
-    margin-right: 2rem;
-    margin-top: 2rem;
-  }
-  div {
-    display: flex;
-    flex-direction: column;
-  }
-}
-h1 {
-  font-weight: 700;
-}
-
-h1,
-h2 {
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-}
-
-.notFound {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
   flex-direction: column;
+}
+
+h1{
+  margin-bottom: 0.5rem;
+}
+
+main{
+  margin-top: 2.5rem;
 }
 
 p {
@@ -71,16 +57,17 @@ footer {
   color: #f7ffae;
 }
 
+a:hover{
+  color:#f3b0ff;
+}
+
+
 @media (min-width: 320px) {
   body {
     margin: 2rem;
     width: 100%;
   }
   header {
-    img {
-      height: 4rem;
-      width: 4rem;
-    }
     h1 {
       font-size: x-large;
     }
@@ -89,15 +76,11 @@ footer {
 
 @media (min-width: 1025px) {
   body {
-    width: 40%;
+    width: 32%;
   }
   header {
     img {
-      height: 6rem;
-      width: 6rem;
-    }
-    h1 {
-      font-size: 2.6rem;
+      height: 10rem;
     }
   }
 }
