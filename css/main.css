@@ -41,6 +41,7 @@ p {
   span {
     color: #f3b0ff;
   }
+  margin-bottom: 1rem;
 }
 
 nav ul {
@@ -81,7 +82,7 @@ a:hover{
 
 @media (min-width: 1025px) {
   body {
-    width: 32%;
+    width: 34%;
   }
   header {
     img {
