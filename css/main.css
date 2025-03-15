@@ -1,3 +1,7 @@
+@font-face{
+  font-family: Firacode;
+  src: url("../assets/variable_ttf/FiraCode-VF.ttf");
+}
 * {
   margin: 0;
   padding: 0;
@@ -14,7 +18,7 @@ html {
 body {
   display: flex;
   flex-direction: column;
-  font-family: Firacode Nerd Font Mono;
+  font-family: Firacode;
   color: white;
 }
 
