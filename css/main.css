@@ -105,12 +105,6 @@ section {
   margin-bottom: 2.5rem;
 }
 
-.intro a {
-  text-decoration: underline;
-  text-decoration-color: var(--accent-color);
-  text-underline-offset: 3px;
-}
-
 p {
   font-size: 1rem;
   line-height: 1.7;
@@ -148,7 +142,10 @@ nav ul li:last-child {
 /* Link Styles */
 a {
   color: var(--text-color);
-  text-decoration: none;
+  text-decoration: underline;
+  text-decoration-color: var(--accent-color);
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
 }
 
 a:hover {
@@ -206,17 +203,6 @@ a:hover {
 .error-page {
   text-align: center;
   margin: 2rem auto;
-}
-
-.error-page p a {
-  text-decoration: underline;
-  text-decoration-color: var(--accent-color);
-  text-underline-offset: 3px;
-  text-decoration-thickness: 1px;
-}
-
-.error-page a:hover {
-  color: var(--link-hover);
 }
 
 /* Footer Styles */
@@ -289,8 +275,8 @@ footer p {
 
   main {
     overflow-y: auto;
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
+    -ms-overflow-style: none;
+    scrollbar-width: none;
   }
 
   main::-webkit-scrollbar {
