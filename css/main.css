@@ -1,9 +1,3 @@
-@font-face{
-  font-family: Firacode;
-  src: url("../assets/variable_ttf/FiraCode-VF.ttf");
-  font-display: swap;
-}
-
 :root {
   --bg-color: #1b1b1b;
   --text-color: #ffffff;
@@ -31,7 +25,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  font-family: 'JetBrains Mono', Firacode, monospace;
+  font-family: 'JetBrains Mono', monospace;
   color: var(--text-color);
   line-height: 1.6;
   letter-spacing: 0.02em;
