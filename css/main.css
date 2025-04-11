@@ -205,14 +205,13 @@ a:hover {
 /* 404 Page Styles */
 .error-page {
   text-align: center;
+  margin: 2rem auto;
 }
 
-.error-page .ascii-art {
-  font-family: monospace;
-  white-space: pre;
-  line-height: 1.2;
-  margin: 2rem 0;
-  color: var(--accent-color);
+.error-page p a {
+  text-decoration: underline;
+  text-decoration-color: var(--accent-color);
+  text-underline-offset: 3px;
 }
 
 /* Footer Styles */
@@ -258,19 +257,11 @@ footer p {
   header h1 {
     font-size: x-large;
   }
-
-  .error-page .ascii-art {
-    font-size: 0.6rem;
-  }
 }
 
 @media (min-width: 768px) {
   body {
     margin: 2.5rem;
-  }
-
-  .error-page .ascii-art {
-    font-size: 0.8rem;
   }
 
   .simple-animation {
@@ -301,11 +292,7 @@ footer p {
     display: none;
   }
 
-  .error-page .ascii-art {
-    font-size: 1rem;
-  }
-
-  .about, .contact, .intro {
+  .about, .contact, .intro, .error-page {
     max-width: 80ch;
     margin: 0 auto;
   }
