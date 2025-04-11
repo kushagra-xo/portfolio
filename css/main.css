@@ -133,6 +133,16 @@ nav ul li:last-child {
   margin-right: 0;
 }
 
+/* Remove underlines from navbar links */
+nav a {
+  text-decoration: none;
+}
+
+/* Current page indicator */
+nav a.active {
+  color: var(--accent-color);
+}
+
 /* Link Styles */
 a {
   color: var(--text-color);
