@@ -1,4 +1,59 @@
-body{
-	background: #1f1f1f;
-	color: #dddcda;
+:root {
+  --text-color: #fffbf3;
+}
+
+body {
+  background: #292a2c;
+  color: var(--text-color);
+  max-width: 100ch;
+  margin: 5vh auto;
+  padding: 0 1rem;
+}
+
+a:visited {
+  color: #a0a0a0;
+}
+
+a {
+  color: var(--text-color);
+}
+
+h1 a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+h1 {
+  font-size: 1.8em;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 1.2em;
+}
+
+.logo-section {
+  margin-bottom: -0.8em;
+}
+
+.pronouns a {
+  color: #a0a0a0;
+  font-size: 0.5em;
+}
+
+.pronunciation {
+  font-style: italic;
+  color: #a0a0a0;
+  font-size: 0.9em;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 0.8rem;
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  margin: 0;
 }
