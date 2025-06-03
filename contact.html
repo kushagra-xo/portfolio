@@ -7,19 +7,27 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
+    <!-- Skip to main content -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
     <header class="name-header">
-      <nav>
+      <nav aria-label="Main">
         <ul>
           <li><a href="index.html">home</a></li>
           <li><a href="blog.html">blog</a></li>
+          <li><a href="interests.html">interests</a></li>
           <li><a href="about.html">about</a></li>
-          <li><a href="contact.html">contact</a></li>
+          <li>
+            <a href="contact.html" class="active" aria-current="page"
+              >contact</a
+            >
+          </li>
         </ul>
       </nav>
       <h1>Contact</h1>
-      <a href="index.html" class="back-home">&larr; Back to Home</a>
+      <a href="index.html" class="back-home">← Back to Home</a>
     </header>
-    <main>
+    <main id="main-content">
       <section class="contact-section">
         <h2>Recommended</h2>
         <ul class="introduction">
@@ -43,15 +51,30 @@
       </section>
     </main>
     <footer class="site-footer">
-      <span class="footer-text"
-        >&copy; 2025 Kushagra Jain &mdash;
+      <p class="footer-text">
+        Content licensed under
         <a
           href="https://creativecommons.org/licenses/by-nc-sa/4.0/"
           target="_blank"
           rel="noopener"
           >CC BY-NC-SA 4.0</a
-        ></span
-      >
+        >
+      </p>
+      <p class="footer-text">
+        Source code licensed under
+        <a
+          href="https://www.gnu.org/licenses/agpl-3.0.en.html"
+          target="_blank"
+          rel="noopener"
+          >AGPL-3.0</a
+        >. View on
+        <a
+          href="https://github.com/kushagra-xo/portfolio"
+          target="_blank"
+          rel="noopener"
+          >GitHub</a
+        >.
+      </p>
     </footer>
     <script src="js/main.js"></script>
   </body>
